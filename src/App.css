@@ -36,3 +36,26 @@
     transform: rotate(360deg);
   }
 }
+
+aside {
+  width: 200px;
+  padding: 20px;
+  border-right: 1px solid #ddd;
+  background-color: #f0f0f0;
+}
+
+.dndnode {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.dndnode.input {
+  background-color: #e0f7fa;
+}
+
+.dndnode.output {
+  background-color: #ffe0b2;
+}
