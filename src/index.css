@@ -12,14 +12,20 @@ code {
     monospace;
 }
 
-.dndflow {
-  flex-direction: column;
+#root {
+  height: 100vh;
+  width: 100vw;
   display: flex;
-  flex-grow: 1;
-  height: 100%;
+}
+
+.dndflow {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
 }
 
 .dndflow aside {
+  width: 250px;
   border-right: 1px solid #eee;
   padding: 15px 10px;
   font-size: 12px;
@@ -50,22 +56,7 @@ code {
   border-color: #ff0072;
 }
 
-.dndflow .reactflow-wrapper {
+.reactflow-wrapper {
   flex-grow: 1;
   height: 100%;
-}
-
-.dndflow .selectall {
-  margin-top: 10px;
-}
-
-@media screen and (min-width: 768px) {
-  .dndflow {
-    flex-direction: row;
-  }
-
-  .dndflow aside {
-    width: 20%;
-    max-width: 250px;
-  }
 }

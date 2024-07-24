@@ -1,5 +1,5 @@
 import React from 'react';
-import { Card, CardContent, Typography, TextField, Box } from '@mui/material';
+import { Card, CardContent, Typography, TextField } from '@mui/material';
 import { Handle, Position } from 'reactflow';
 
 const CustomNode = ({ data }) => {
